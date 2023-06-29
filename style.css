@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(10, 17, 49);
+}
+
+#name {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+    opacity: 0;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-size: 1.5rem;
+
+}
+
+
+#timeCont{
+    background-color: rgba(255, 255, 255, 0.149);
+    width: fit-content;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 5px;     
+}
+
+
+svg path {
+    cursor: pointer;
+}
